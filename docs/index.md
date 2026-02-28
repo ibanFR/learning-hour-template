@@ -3,4 +3,10 @@ title: Home
 layout: home
 ---
 
-Welcome to the documentation site for the {{ site.title }}.
+# {{ site.title }}
+{: .no_toc }
+
+{{ site.description }}.
+{: .fs-6 .fw-300 }
+
+
