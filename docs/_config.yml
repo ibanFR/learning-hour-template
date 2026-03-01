@@ -26,3 +26,53 @@ gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
+collections:
+  explanation:
+    output: true
+    description: Explanation collection
+#  tutorial:
+#    output: true
+#  how-to:
+#    output: true
+#  reference:
+#    output: true
+
+just_the_docs:
+  collections:
+    explanation:
+      name: Explanation
+#    tutorial:
+#      name: Tutorial
+#    reference:
+#      name: Reference
+#    how-to:
+#      name: How-To
+
+defaults:
+  # All regular Jekyll pages
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
+  # Explanation collection
+  - scope:
+      path: ""
+      type: "explanation"
+    values:
+      layout: default
+
+  # How-to collection
+  - scope:
+      path: ""
+      type: "how-to"
+    values:
+      layout: default
+
+  # Reference collection
+  - scope:
+      path: ""
+      type: "reference"
+    values:
+      layout: default
