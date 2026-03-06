@@ -3,9 +3,12 @@
 Just the Docs template for creating the Documentation site for a GitHub repository. This template repository includes:
 
 - A [Jekyll] site configured with the [Just the Docs] theme, located in the `docs` folder
-- A GitHub [Actions workflow] in the `.github/workflows` folder to build and deploy the site to GitHub Pages
 - A copy of the [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE-CC-BY-SA-4.0) in the
   repository root. This license applies to all site documentation content
+- A GitHub [Actions workflow] in the `.github/workflows` folder to build and deploy the site to GitHub Pages
+- A Java project in the `java` folder, configured with Maven for building and testing
+- A copy of the [MIT License] for the source code in the language specific folders (e.g., `java`), located in the repository
+- A GitHub Actions workflow for building and testing the Java project, located in `.github/workflows/java-build-test.yml`
 - A Notice file for third-party attributions in the repository root
 
 ## Getting started
@@ -22,6 +25,21 @@ After completing the creation of your new site on GitHub, update it as needed:
 - `_config.yml` (site title, description, and repository URL)
 - `README.md` (information for those who access your site repo on GitHub)
 - `NOTICE` (attributions for any third-party content you use in your site)
+- `java/pom.xml` (project name, dependencies, and other configurations for the Java project)
+
+## Java Project
+
+This repository includes a Java project in the `java` folder, configured with Maven:
+
+- Standard Maven structure (`src/main/java`, `src/test/java`)
+- JUnit 5 and AssertJ for testing
+- Java 25 as the target version
+- Build and test using Maven commands (`mvn clean install`, `mvn test`)
+
+## GitHub Actions Workflows
+
+- **Site Deployment:** `.github/workflows/pages.yml` builds and deploys the documentation site to GitHub Pages.
+- **Java Build & Test:** `.github/workflows/java-build-test.yml` automatically builds and tests the Java project on push and pull request events. Test results are uploaded as artifacts.
 
 ## Building and previewing your site locally
 
