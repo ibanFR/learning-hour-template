@@ -8,7 +8,6 @@ This repository contains code and documentation from multiple sources, each unde
 - Copyright (c) 2015 Emily Bache
 - License: MIT
 - Location: All source code and files except where otherwise noted
-- License file: license.txt (top-level)
 
 2. Just the Docs (Theme)
 ------------------------
@@ -30,7 +29,7 @@ This repository contains code and documentation from multiple sources, each unde
 
 5. License Texts
 ----------------
-- The full text of the MIT License is provided  license.txt (for Gilded Rose Refactoring Kata), docs/LICENSE (for just-the-docs) and LICENSE (for modifications and additions of source code).
+- The full text of the MIT License is provided in license.txt (for Gilded Rose Refactoring Kata), docs/LICENSE (for just-the-docs) and LICENSE (for modifications and additions of source code).
 - The full text of the Creative Commons Attribution-ShareAlike 4.0 International License is provided in LICENSE-CC-BY-SA-4.0.
 
 6. Additional Notes
