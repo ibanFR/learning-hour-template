@@ -1,4 +1,4 @@
-package com.example;
+package com.ibanfr;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
