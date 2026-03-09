@@ -5,7 +5,7 @@ Just the Docs template for creating the Documentation site for a GitHub reposito
 - A [Jekyll] site configured with the [Just the Docs] theme, located in the `docs` folder
 - A copy of the [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE-CC-BY-SA-4.0) in the
   repository root. This license applies to all site documentation content
-- A GitHub [Actions workflow] in the `.github/workflows` folder to build and deploy the site to GitHub Pages
+- A [GitHub Actions workflow] in the `.github/workflows` folder to build and deploy the site to GitHub Pages
 - A Java project in the `java` folder, configured with Maven for building and testing
 - A copy of the [MIT License] for the source code in the language specific folders (e.g., `java`), located in the repository
 - A GitHub Actions workflow for building and testing the Java project, located in `.github/workflows/java-build-test.yml`
@@ -69,7 +69,7 @@ terms of the respective licenses for the code and documentation.
 
 [Jekyll]: https://jekyllrb.com
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
+[GitHub Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
 [Bundler]: https://bundler.io
 [MIT License]: https://en.wikipedia.org/wiki/MIT_License
 [starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
