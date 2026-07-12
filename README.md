@@ -49,6 +49,9 @@ Assuming [Jekyll] and [Bundler] are installed on your computer:
 2. Run `bundle install`.
 3. Run `bundle exec jekyll serve` to build your site and preview it at `localhost:4000`.
 
+Alternatively, run `./docs/start_local_server.sh` from anywhere in the repository. It installs any missing
+gem dependencies and serves the site with live reload at `localhost:4000`.
+
 The built site is stored in the directory `docs/_site`.
 
 ## Licensing and Attribution

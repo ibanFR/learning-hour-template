@@ -16,8 +16,10 @@ if ! command -v bundle >/dev/null 2>&1; then
   exit 1
 fi
 
-echo "Installing gem dependencies..."
-bundle install
+if ! bundle check >/dev/null 2>&1; then
+  echo "Installing gem dependencies..."
+  bundle install
+fi
 
 echo "Serving site at http://localhost:4000 (Ctrl+C to stop)..."
 bundle exec jekyll serve --livereload "$@"
