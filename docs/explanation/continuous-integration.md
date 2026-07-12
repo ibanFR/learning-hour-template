@@ -1,10 +1,11 @@
 ---
 title: Continuous Integration
+layout: default
+parent: Explanation
 nav_order: 2
 ---
 
 # Continuous Integration
-
 {: .no_toc }
 
 This repository leverages [GitHub Actions] to automate CI/CD workflows for the "{{ site.title }}"
