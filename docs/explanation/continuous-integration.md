@@ -15,7 +15,6 @@ With each push to the `main` branch, the workflows defined in the `.github/workf
 build, test, and release the software across its Java and .NET implementations.
 
 ## Table of Contents
-
 {: .no_toc .text-delta }
 
 1. TOC
